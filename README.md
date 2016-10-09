@@ -7,6 +7,7 @@ Simple AngularJS Boilerplate to kick start your new project with SASS support an
 * Gulp watch, build and local server tasks
 * clear folder structure
 * minified CSS and JS build files
+
 ## For quick install 
 ```bash
 sudo npm install -g create-angular-app
