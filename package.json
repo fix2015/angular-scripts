@@ -1,0 +1,25 @@
+{
+  "name": "angular-scripts",
+  "version": "1.1.0",
+  "description": "Simple AngularJS Boilerplate to kick start your new project with SASS support and Gulp watch/build tasks",
+  "author": "Semianchuk Vitalii",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "fs-extra":"*",
+    "path":"*",
+    "cross-spawn":"*",
+    "path-exists":"*",
+    "chalk":"*"
+  }
+}
