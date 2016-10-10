@@ -11,6 +11,8 @@ Simple AngularJS Boilerplate to kick start your new project with SASS support an
 ## For quick install 
 ```bash
 sudo npm install -g create-angular-app
+
+create-angular-app projectName
 ```
 
 ## 1. Setup

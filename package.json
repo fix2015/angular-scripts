@@ -1,6 +1,6 @@
 {
   "name": "angular-scripts",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Simple AngularJS Boilerplate to kick start your new project with SASS support and Gulp watch/build tasks",
   "author": "Semianchuk Vitalii",
   "license": "MIT",
