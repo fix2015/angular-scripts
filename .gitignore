@@ -1,2 +1,4 @@
 .idea/
 angular-scripts.iml
+path/node_modules
+path/build
