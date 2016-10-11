@@ -1,0 +1,24 @@
+<div>
+    <h1>Providers</h1>
+    <p>Each web application you build is composed of objects that collaborate to get stuff done. These objects need to be instantiated and wired together for the app to work. In Angular apps most of these objects are instantiated and wired together automatically by the injector service.</p>
+    <h2>Services</h2>
+
+    <p>Syntax: module.service( 'serviceName', function );
+    Result: When declaring serviceName as an injectable argument you will be provided with an instance of the function. In other words new FunctionYouPassedToService().</p>
+    <b>Get access to Service <i>{{getService}}</i></b>
+    <h4>Example - src/services/mainService.js</h4>
+
+    <h2>Factories</h2>
+
+    <p>Syntax: module.factory( 'factoryName', function );
+    Result: When declaring factoryName as an injectable argument you will be provided with the value that is returned by invoking the function reference passed to module.factory.</p>
+    <b>Get access to Factory <i>{{getFactory}}</i></b>
+    <h4>Example - src/factories/mainFactory.js</h4>
+    <h2>Providers</h2>
+
+    <p>Syntax: module.provider( 'providerName', function );
+    Result: When declaring providerName as an injectable argument you will be provided with (new ProviderFunction()).$get(). The constructor function is instantiated before the $get method is called - ProviderFunction is the function reference passed to module.provider.</p>
+    <b>Get access to Provider <i>{{getProvider}}</i></b>
+    <h4>Provider - src/providers/mainProvider.js</h4>
+
+</div>
