@@ -2,3 +2,4 @@
 angular-scripts.iml
 path/node_modules
 path/build
+path/package.json
