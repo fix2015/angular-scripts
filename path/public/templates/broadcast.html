@@ -1,0 +1,13 @@
+ <div class="broadcastModule">
+     <div class="broadcastModuleDiv">
+         <h1>Main Broadcast controller (parent controller)</h1>
+         <h3 ng-if="getMessage">We get first here {{getMessage}} and broadcast to child controller - broadcastController</h3>
+     </div>
+     <div ui-view="emit">
+
+     </div>
+     <div ui-view="broadcast">
+     </div>
+ </div>
+
+

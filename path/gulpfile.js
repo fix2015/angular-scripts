@@ -7,7 +7,8 @@ var concat = require('gulp-concat');
 
 gulp.task('sass', function() {
     gulp.src([
-        'public/**/*.scss'
+        'public/**/*.scss',
+        'src/modules/**/*.scss'
     ])
         .pipe(concat('style.js'))
         .pipe(plumber())
@@ -42,7 +43,7 @@ gulp.task('compress-prod', function() {
 
 gulp.task('watch', function() {
     gulp.watch('public/styles/*.scss', ['sass']);
-    gulp.watch('src/module/**/*.scss', ['sass']);
+    gulp.watch('src/modules/**/*.scss', ['sass']);
     gulp.watch('src/**/*.js', ['compress-dev']);
     gulp.watch('app.js', ['compress-dev']);
 });

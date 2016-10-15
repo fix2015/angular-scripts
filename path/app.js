@@ -1,1 +1,1 @@
-angular.module('angularApp', ['ui.router','main'])
+angular.module('angularApp', ['ui.router','main','broadcast'])
